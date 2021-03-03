@@ -18,6 +18,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <ul>
+      {['Evan', 'Ben', 'Maria', 'Daniel'].map((name, key) => (<li><span key={key}>{name}</span></li>))}
+      </ul>
     </div>
   );
 }
